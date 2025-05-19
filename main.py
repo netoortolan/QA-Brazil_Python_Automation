@@ -1,7 +1,3 @@
-import data
-import helpers
-
-
 class TestUrbanRoutes:
     @classmethod
     def setup_class(cls):
@@ -41,17 +37,12 @@ class TestUrbanRoutes:
         pass
 
     def test_order_2_ice_creams(self):
-        # Adicionar em S8
-        print("função criada para definir a rota")
-        pass
+        for count in range(number_of_ice_creams):
+            # Adicionar em S8
+            print("função criada para definir a rota")
+            pass
 
     def test_car_search_model_appears(self):
         # Adicionar em S8
         print("função criada para definir a rota")
         pass
-
-    def test_order_2_ice_creams(self):
-        number_of_ice_creams = 2
-        for count in range(number_of_ice_creams):
-            # Adicionar em S8
-            pass
