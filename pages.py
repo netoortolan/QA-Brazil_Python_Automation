@@ -1,5 +1,3 @@
-#pages.py
-#import
 from html.parser import commentclose
 
 from selenium.webdriver.common.by import By
